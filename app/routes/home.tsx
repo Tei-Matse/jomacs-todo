@@ -7,5 +7,5 @@ export function meta({}: Route.MetaArgs) {
 }
 
 export default function Home() {
-  return <div>Hello World</div>;
+  return <div>className="bg-red-500"Hello World</div>;
 }
