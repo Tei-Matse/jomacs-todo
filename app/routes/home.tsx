@@ -1,5 +1,6 @@
 import { Button } from "~/components/ui/button";
 import type { Route } from "./+types/home";
+import { HomePage } from "~/components/ui/Homepage/HomePage";
 export function meta({}: Route.MetaArgs) {
   return [
     { title: "New React Router App" },
@@ -10,7 +11,7 @@ export function meta({}: Route.MetaArgs) {
 export default function Home() {
   return (
     <main>
-       <Button></Button>
+      <HomePage />
     </main>
   );
 }
