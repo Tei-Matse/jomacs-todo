@@ -1,6 +1,6 @@
 ## Things To Dor
 
-[ ] Design the todo homepage
+[X] Design the todo homepage
 [ ] Create a preview component for a todo item preview card
 [ ] Create a modal, that will sow the full text of a todo item when the todo item preview is clicked on
 [ ] Create a modal, that will show when you click on a delete of a todo item
